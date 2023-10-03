@@ -7,10 +7,10 @@ community a harassment-free experience for everyone, regardless of age, body
 size, visible or invisible disability, ethnicity, sex characteristics, gender
 identity and expression, level of experience, education, socio-economic status,
 nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+and orientation.A person doesn't require to be rude for talking with other people. Social anxiety being a major problem has affected people in a lot of ways.
 
 We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+diverse, inclusive, and healthy community. We want to spread positivity and kindness to people, as much as we can. #kindness#positivity 
 
 ## Our Standards
 
@@ -24,6 +24,8 @@ community includes:
   and learning from the experience
 * Focusing on what is best not just for us as individuals, but for the
   overall community
+  Explaining why Anxiety is important to understand
+  Explaining how bodyshaming should be stopped.
 
 Examples of unacceptable behavior include:
 
@@ -35,6 +37,7 @@ Examples of unacceptable behavior include:
   address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
+  Commenting on people's body.
 
 ## Enforcement Responsibilities
 
