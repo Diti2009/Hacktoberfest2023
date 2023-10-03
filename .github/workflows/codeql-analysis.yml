@@ -9,7 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
+name: "Ql"
 
 on:
   push:
@@ -18,19 +18,19 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
   schedule:
-    - cron: '21 15 * * 1'
+    - cron: '21 23 * * 1'
 
 jobs:
-  analyze:
-    name: Analyze
+  analy
+    name: Analyze 
     runs-on: ubuntu-latest
-    permissions:
-      actions: read
+    permissions: to write
+      actions: write
       contents: read
-      security-events: write
+      ssecurity-events: write
 
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         language: [  ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby', rust ]
@@ -38,10 +38,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/
 
     # Initializes the CodeQL tools for scanning.
-    - name: Initialize CodeQL
+    - name: Initialize QL
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
@@ -56,7 +56,7 @@ jobs:
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
-      uses: github/codeql-action/autobuild@v2
+      uses: github/ql-action/autobuild@v2
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
@@ -68,7 +68,7 @@ jobs:
     #   echo "Run, Build Application using script"
     #   ./location_of_script_within_repo/buildscript.sh
 
-    - name: Perform CodeQL Analysis
+    - name: Perform QL Analysis
       uses: github/codeql-action/analyze@v2
       with:
-        category: "/language:${{matrix.language}}"
+      category: "/language:${{matrix.language}}"
